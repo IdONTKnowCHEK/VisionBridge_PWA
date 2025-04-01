@@ -17,12 +17,20 @@ export const metadata: Metadata = {
   title: "VisionBridge",
   description: "Echoes of Art",
   manifest: '/manifest.json',
-  themeColor: '#000000',
   icons: {
     icon: '/icons/icon-192x192.png',
     apple: '/icons/icon-192x192.png',
   },
 };
+
+export const viewport = {
+  themeColor: "#000000",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 
 export default function RootLayout({
   children,

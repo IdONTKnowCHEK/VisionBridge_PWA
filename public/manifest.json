@@ -1,6 +1,7 @@
 {
     "name": "Vision Bridge",
-    "short_name": "PWAApp",
+    "short_name": "Vision Bridge",
+    "description": "Echoes of Art",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
