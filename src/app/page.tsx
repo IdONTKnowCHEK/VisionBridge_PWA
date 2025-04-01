@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { SpeechButton } from "@/components/speech-button";
 
 export default function Home() {
